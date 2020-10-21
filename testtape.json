@@ -1,0 +1,56 @@
+{
+  "users" : [
+    {
+      "id": "1",
+      "name": "Jeff Martinez"
+    },
+    {
+      "id" : "2",
+      "name" : "Tammy Tester"
+    }
+  ],
+  "playlists" : [
+    {
+      "id" : "1",
+      "user_id" : "1",
+      "song_ids" : [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id" : "2",
+      "user_id" : "2",
+      "song_ids" : [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id" : "3",
+      "user_id" : "1",
+      "song_ids" : [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "id" : "1",
+      "artist": "Alice Arpeggio",
+      "title": "Broken Chords and Code"
+    },
+    {
+      "id" : "2",
+      "artist": "Bobby Brass",
+      "title": "High RISC Improv"
+    },
+    {
+      "id" : "3",
+      "artist": "The Weeknd",
+      "title": "Pray For Me"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# add-playlist,user-id,song-id-1,song-id-2,...,song-id-n
+# add-song-to-playlist,playlist-id,song-id
+# rm-playlist,playlist-id
+
+add-playlist,1,1,1,2,1,1,2
+add-playlist,1,3,3,3,2,2,1
+add-playlist,2,1,2,3,3,2,1
+
+rm-playlist,1
+rm-playlist,2
+rm-playlist,3
+
+add-song-to-playlist,4,3
+add-song-to-playlist,4,3
+add-song-to-playlist,4,3
+rm-playlist,5
