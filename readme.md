@@ -70,7 +70,7 @@ The changes file format is CSV, with one command/instruction per line. This mean
 
 This has the added benefit of allowing a constant stream of commands to be read from any file stream, including `stdin`, for example. They could even be piped in or redirected from another command line program which generates the instructions as needed. In other words, a "pipe and filter" architecture.
 
-### Handline a large `mixtage.json` file
+### Handline a large `mixtape.json` file
 
 Handling a larger `mixtape.json` file requires two additional considerations:
 
